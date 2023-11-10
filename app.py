@@ -1,5 +1,5 @@
 import streamlit as st 
+import segno
 
-st.write ("Hello")
+qrcode_1 = segno.make_qr ("Hello World")
 
-st.write("Hello again")
