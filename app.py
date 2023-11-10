@@ -1,5 +1,5 @@
 import streamlit as st 
-
+pip install qrcode[pil]
 import qrcode
 
 # Create an instance of the QRCode class
