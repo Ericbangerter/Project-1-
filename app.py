@@ -1,6 +1,3 @@
-%pip install streamlit
-%pip install python-barcode
-
 import streamlit as st
 import barcode
 from barcode.writer import ImageWriter
