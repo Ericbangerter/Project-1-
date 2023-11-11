@@ -2,11 +2,12 @@ import streamlit as st
 import barcode
 from barcode.writer import ImageWriter
 
-# Function to generate and display a barcode
+# Function to generate and display a Code 128 barcode
 def generate_and_display_barcode(data):
     code = barcode.get('code128', data, writer=ImageWriter(), add_checksum=False)
     barcode_image = code.save('temp_barcode')
     st.image('temp_barcode.png', use_column_width=True)
+    st.text("Generated Barcode for: {}".format(data))
 
 # Streamlit app
 def main():
