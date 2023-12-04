@@ -1,4 +1,3 @@
-!pip install streamlit pandas gspread google-auth-oauthlib google-auth-httplib2
 import streamlit as st
 import pandas as pd
 import gspread
