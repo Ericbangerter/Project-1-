@@ -1,3 +1,11 @@
+!pip install streamlit
+!pip install pandas
+!pip install openpyxl
+!pip install google-auth
+!pip install google-api-python-client
+!pip install google-auth-httplib2
+!pip install google-auth-oauthlib
+
 import streamlit as st
 import pandas as pd
 import gspread
