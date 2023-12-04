@@ -1,3 +1,5 @@
+!pip install gspread
+!pip install streamlit pandas gspread google-auth-oauthlib google-auth-httplib2
 import streamlit as st
 import pandas as pd
 import gspread
@@ -10,7 +12,7 @@ SCOPES = [
 ]
 
 # Pfad zu deiner JSON-Anmeldedatei
-SERVICE_ACCOUNT_FILE = '/Users/Anina/Desktop/CS/Project/Anina/CS-Project-main/projekt-cs-32b2fba1e1ff.json'
+SERVICE_ACCOUNT_FILE = '/Users/ericbangerter/Documents/Universität /5. Semester/CS/Group_project/Final/projekt-cs-32b2fba1e1ff.json'
 
 # Deine Spreadsheet-ID aus der URL deines Google Sheets
 SPREADSHEET_ID = '1CLDAFhtriXEMnylxTfOqF27-GH5S9hXELq0WCl-8kb4'
